@@ -1,41 +1,80 @@
-
-
-
-.container1{
-    display: flex;
-    width: 100%;
-background-image: url(images/top-banner.png);
-background-repeat: no-repeat;
-height: 500px;
-}
-.container2{
-  
-    width: 100%;
-    display: flex;
-background-repeat: no-repeat;
-height: 700px;
+body {
+    font-family: 'Poppins', sans-serif;
 }
 
-.half-width{
+.hello {
+    color: purple;
+}
+
+h1 {
+    font-size: 70px;
+
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    color: blue;
+}
+
+p {
+    font-size: 20px;
+}
+
+.name {
+    color: darkorange;
+}
+
+.container1 {
+    display: flex;
+    width: 100%;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    height: 700px;
+
+}
+
+.container2,
+.flex {
+
+    width: 100%;
+    display: flex;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+
+.half-width {
     height: auto;
     width: 40%;
-    margin-left: 5%
-    
-}
-.mypic{
-    
-    width: 90%;
-    
-   
-}
-.hello{
-
-}
-.name{
+    margin-left: 80px;
 
 }
 
-.button{
+.mypic {
+
+    width: 80%;
+    margin-top: 20px;
+
+
+}
+
+.one-third {
+
+    border-image: linear-gradient(salmon, tomato) 30;
+    border-image-slice: 1;
+    border-left: 7px solid;
+
+    box-shadow: 10px 10px 40px gray;
+    width: 33%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.button {
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
     padding: 10px 30px;
@@ -43,27 +82,25 @@ height: 700px;
     border-radius: 50px;
 }
 
-
-
-
-.flex{
+.flex {
     display: flex;
     width: 100%;
-    height: 400px;
+    height: 500px;
 }
 
-.one-third{
-    border-image: linear-gradient(salmon, tomato) 30;
-    border-image-slice: 1;
-    border-left: 7px solid;
-
+.flex-section {
+    margin-bottom: 50px;
 }
 
+.working-Project {
+    width: 100%;
+    margin: 3%;
+}
 
-
-
-
-
+.working-project {
+    margin: 0 auto;
+    text-align: center;
+}
 
 footer p {
     text-align: center;
