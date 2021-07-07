@@ -1,5 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0%;
 }
 
 .hello {
@@ -7,12 +8,12 @@ body {
 }
 
 h1 {
-    font-size: 70px;
+    font-size: 40px;
 
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 20px;
 }
 
 h3 {
@@ -27,28 +28,29 @@ p {
     color: darkorange;
 }
 
-.container1 {
+.main-section {
     display: flex;
     width: 100%;
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
-    height: 700px;
+    height: 500px;
 
 }
 
-.container2,
+.about-section,
 .flex {
 
     width: 100%;
     display: flex;
     background-repeat: no-repeat;
-    height: 700px;
+    height: 500px;
 }
 
 .half-width {
     height: auto;
     width: 40%;
     margin-left: 80px;
+    text-align: justify;
 
 }
 
@@ -56,6 +58,7 @@ p {
 
     width: 80%;
     margin-top: 20px;
+    float: right;
 
 
 }
